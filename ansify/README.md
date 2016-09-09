@@ -28,3 +28,6 @@ for useless space you can pass input to
   ```
 to get rid of it.
 
+cowfiles
+--------
+If you have ed installed, you can use makecow.sh to convert ansify output into a cowfile for use with tewisay.
