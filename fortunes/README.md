@@ -13,6 +13,9 @@ Uriel's cat-v fortune file
 ##kernelnewbies
 Linux Kernel quotes.
 
+##luckystar
+Quotes (often transcripts) from Lucky Star.
+
 ##openbsd
 OpenBSD's fortunes
 
