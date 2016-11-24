@@ -1,5 +1,5 @@
 #!/bin/sh
-FORTUNES=$(ls -1 | sed -e '/README.md/d' -e '/install.sh/d' -e'/\.dat$/d')
+FORTUNES=$(ls -1 | sed -e '/README.md/d' -e '/install.sh/d' -e'/\.dat$/d' -e'/scriptkitties/d')
 FORTDIR='/usr/share/fortune'
 if [ ! -d $FORTDIR ]
 then
