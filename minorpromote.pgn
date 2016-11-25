@@ -1,0 +1,23 @@
+[Event "Casual Game"]
+[Site "http://lichess.org"]
+[Date "11/25/2016"]
+[White "japanoise"]
+[Black "Stockfish 2"]
+[Result "1-0"]
+[PlyCount "133"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Variant "Standard"]
+[Termination "mate"]
+
+1. e4 e5 2. Nc3 d6 3. Bb5+ Nc6 4. a4 Nf6 5. d3 d5 6. Bg5 Bg4 7. f3 h6
+8. Bxf6 gxf6 9. fxg4 Bb4 10. Qd2 Bxc3 11. Qxc3 Qd7 12. O-O-O d4 13. Qa3 O-O-O
+14. a5 a6 15. Nf3 f5 16. Nxe5 Qe8 17. Nxc6 axb5 18. Qc5 Qxc6 19. Qxc6 bxc6
+20. Kd2 fxg4 21. Ra1 Kd7 22. a6 c5 23. a7 Ra8 24. Rhe1 c4 25. dxc4 g3
+26. cxb5 gxh2 27. Rh1 f5 28. exf5 Rhf8 29. Rhf1 Rf6 30. Ke2 Rff8 31. Kf3 d3
+32. cxd3 c6 33. Kg3 cxb5 34. Kxh2 h5 35. d4 Rf6 36. b4 Kc7 37. d5 Kb7
+38. Rf4 Rd6 39. f6 Rxd5 40. f7 Rdd8 41. Rf5 Kc6 42. Rxh5 Rf8 43. Rf5 Kd7
+44. Ra6 Kc7 45. Rff6 Kd7 46. g4 Rac8 47. a8=Q Rh8+ 48. Kg3 Rxa8 49. Rxa8 Rxa8 
+50. f8=N+{!?} Kd8{??} 51. g5 Kc7 52. g6 Rb8 53. g7 Re8 54. g8=Q Re3+
+55. Kf4 Re1 56. Qf7+ Kc8 57. Rc6+ Kb8 58. Nd7+ Ka7 59. Nc5+ Re7 60. Qxe7+ Kb8
+61. Rb6+ Kc8 62. Qe6+ Kc7 63. Rxb5 Kd8 64. Nb7+ Kc7 65. Qe7+ Kb8 66. Nd6+ Ka8
+67. Qb7# 1-0
