@@ -1,2 +1,3 @@
 #!/bin/sh
-sudo cp *.cow /usr/share/cows/
+mkdir -p /usr/share/cows/
+cp *.cow /usr/share/cows/
