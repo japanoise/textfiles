@@ -24,3 +24,6 @@ plan9port's fortunes
 
 ##starwars
 Star Wars quotes to go with Gentoo's Star Trek quotes. From splitbrain.org.
+
+##scriptkitties
+Quotes from \#scriptkitties on darenet. Not ready yet.

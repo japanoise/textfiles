@@ -1,0 +1,16 @@
+digraph G {
+	"Reimu" -> "Marisa" [ label = "Probably in love" dir="both"]
+	subgraph cluster_sdm {
+		label = "Scarlet Devil Mansion"
+		"Sakuya" -> "Remilia" [ label = "Serves" ]
+		"Mei Ling" -> "Sakuya" [ label = "Answers to" ]
+		"Remilia" -> "Patchouli" [ label = "Friends" dir="both"]
+		"Koakuma" -> "Patchouli" [ label = "Serves"]
+		"Remilia" -> "Flandre" [ label = "Sisters" dir="both"]
+		"Mei Ling" -> "Flandre" [ label = "Friends" dir="both" ]
+	}
+	"Remilia" -> "Reimu" [ label = "Fascinated by"]
+	"Flandre" -> "Marisa" [ label = "Wants to play with"]
+	"Cirno" -> "Daiyousei" [ label = "Friends/Lovers" dir="both"]
+	"Nobody" -> "Rumia" [ label = "Seems to care about :<" ]
+}
