@@ -159,6 +159,14 @@ source as follows:
 - Point the Makefile towards the location of your GLK header and library files.
 - Run `make`, cross your fingers!
 
+## Extensions to inform
+
+Check out the [extensions page on the inform 6 site](http://inform-fiction.org/extensions/index.html)
+or [Emily Short's guide to extensions.](http://inform-fiction.org/extensions/index.html)
+The standard in the Inform 6 community seems to be for single-header libraries,
+which you can either bundle with your project's source code, copy in manually,
+or throw in an `include` directory of your choosing.
+
 ## Editing Inform source code
 
 [A GNU Emacs mode exists.](https://www.rupert-lane.org/inform-mode/index.html)
