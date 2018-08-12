@@ -20,7 +20,7 @@ If your system is infected with the systemdick:
 
 1. `mkdir -p ~/.config/systemd/user/`
 2. Enter the following into ~/.config/systemd/user/emacsd.service:
-   ```
+```
 [Unit]
 Description=Emacs: the extensible, self-documenting text editor
 Documentation=man:emacs(1) info:Emacs
@@ -36,7 +36,7 @@ TimeoutStartSec=0
 
 [Install]
 WantedBy=default.target
-   ```
+```
 3. `systemctl --user enable emacsd`
 4. `systemctl --user start emacsd`
 
