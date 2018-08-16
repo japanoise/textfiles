@@ -41,3 +41,20 @@ WantedBy=default.target
 4. `systemctl --user start emacsd`
 
 [(source)](http://wikemacs.org/wiki/Emacs_server#Linux)
+
+## ...make my keyboard layout better?
+
+On Linux, you can use setxkbmap to tweak the options on your keyboard. In lxde
+(or at least Lubuntu's lxde) you do this by adding a keyboard layout handler
+widget, setting up your layouts there, and adding special rules in the box.
+
+A list of special rules is in `/usr/share/X11/xkb/rules/base.lst`.
+
+Here's some I use:
+
+- `ctrl:swap_lalt_lctl_lwin` - Makes the LHS modifiers go WIN-ALT-CTRL - this is
+  better for Emacs and is burned into my fingers.
+- `compose:caps` - Puts `<Compose>` on the otherwise-useless `<Caps-Lock>` key.
+- `grp:sclk_toggle` - Use `<ScrLk>` (scroll lock) as a layout switcher - good
+  for switching between your favourite sane keyboard layout and QWERTY. You will
+  never, ever use scroll lock for anything else!
