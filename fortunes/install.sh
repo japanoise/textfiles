@@ -4,6 +4,10 @@ FORTDIR='/usr/share/fortune'
 if [ ! -d $FORTDIR ]
 then
 	FORTDIR='/usr/share/games/fortune'
+	if [ ! -d $FORTDIR ]
+	then
+		FORTDIR='/usr/share/games/fortunes'
+	fi
 fi
 for f in $FORTUNES; do
 	echo "Generating ${f}.dat"
