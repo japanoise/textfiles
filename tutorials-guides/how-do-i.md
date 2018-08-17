@@ -58,3 +58,11 @@ Here's some I use:
 - `grp:sclk_toggle` - Use `<ScrLk>` (scroll lock) as a layout switcher - good
   for switching between your favourite sane keyboard layout and QWERTY. You will
   never, ever use scroll lock for anything else!
+
+## ...use WIN rather than ALT as a modifier in Openbox?
+
+1. Find your rc file (on lubuntu it's `.config/openbox/lubuntu-rc.xml`)
+2. Go to the tag `<context name="Frame">`
+3. Change relevant actions from `A` to `W` e.g. `A-Left` → `W-Left`
+4. Save and close
+5. `openbox --reconfigure` (on lubuntu, `openbox-lubuntu --reconfigure`)
