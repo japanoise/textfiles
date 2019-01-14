@@ -66,3 +66,12 @@ Here's some I use:
 3. Change relevant actions from `A` to `W` e.g. `A-Left` → `W-Left`
 4. Save and close
 5. `openbox --reconfigure` (on lubuntu, `openbox-lubuntu --reconfigure`)
+
+## ...merge a pull request from a different fork on GitHub?
+
+1. Add the other fork as a remote:
+   `git remote add otherfork git://github.com/request-author/project.git`
+2. Fetch the commits from the other fork:
+   `git fetch otherfork`
+3. Merge the commits:
+   `git merge otherfork/pull-request-branch`
