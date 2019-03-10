@@ -1,0 +1,117 @@
+=== [gen1stadiumou] genwun ===
+
+Momo Jr (Chansey)  
+Ability: none  
+EVs: 252 HP / 252 Def / 252 SpA / 252 Spe  
+Serious Nature  
+- Soft-Boiled  
+- Ice Beam  
+- Substitute  
+- Toxic  
+
+Dumbo (Tauros)  
+Ability: none  
+EVs: 252 HP / 252 Atk / 252 Def / 252 SpA / 252 Spe  
+Serious Nature  
+- Earthquake  
+- Hyper Beam  
+- Substitute  
+- Body Slam  
+
+Snarf (Lapras)  
+Ability: none  
+EVs: 252 HP / 252 Def / 252 SpA / 252 Spe  
+Serious Nature  
+- Ice Beam  
+- Psychic  
+- Hydro Pump  
+- Sing  
+
+egy (Exeggutor)  
+Ability: none  
+EVs: 252 HP / 252 Atk / 252 Def / 252 SpA / 252 Spe  
+Serious Nature  
+- Explosion  
+- Mega Drain  
+- Psychic  
+- Reflect  
+
+Spiky Child (Jolteon)  
+Ability: none  
+EVs: 252 HP / 252 Atk / 252 Def / 252 SpA / 252 Spe  
+Serious Nature  
+- Thunderbolt  
+- Thunder Wave  
+- Double Kick  
+- Reflect  
+
+The Big Boy (Cloyster)  
+Ability: none  
+EVs: 252 HP / 252 Atk / 252 Def / 252 SpA / 252 Spe  
+Serious Nature  
+- Explosion  
+- Hyper Beam  
+- Clamp  
+- Double-Edge  
+
+
+=== [gen7monotype] Mono Normal ===
+
+Momo (Blissey) @ Leftovers  
+Ability: Natural Cure  
+EVs: 252 HP / 252 Def / 4 SpD  
+Impish Nature  
+- Seismic Toss  
+- Toxic  
+- Heal Bell  
+- Soft-Boiled  
+
+Bravo (Staraptor) (M) @ Rocky Helmet  
+Ability: Intimidate  
+EVs: 252 HP / 200 Def / 56 Spe  
+Impish Nature  
+- Brave Bird  
+- Close Combat  
+- Defog  
+- Roost  
+
+Ringo (Lopunny-Mega) (F) @ Lopunnite  
+Ability: Limber  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Power-Up Punch  
+- High Jump Kick  
+- Return  
+- Ice Punch  
+
+Peregrin (Porygon-Z) @ Normalium Z  
+Ability: Adaptability  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Shadow Ball  
+- Recover  
+- Conversion  
+- Thunderbolt  
+
+Snaxx (Snorlax) (M) @ Iapapa Berry  
+Ability: Gluttony  
+EVs: 252 HP / 252 Atk / 4 SpD  
+Adamant Nature  
+- Recycle  
+- Curse  
+- Fire Punch  
+- Facade  
+
+Skye (Cinccino) @ Choice Band  
+Ability: Skill Link  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Tail Slap  
+- Bullet Seed  
+- Rock Blast  
+- Knock Off  
+
+
+
+
