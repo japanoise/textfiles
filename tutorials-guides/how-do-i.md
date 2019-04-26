@@ -75,3 +75,30 @@ Here's some I use:
    `git fetch otherfork`
 3. Merge the commits:
    `git merge otherfork/pull-request-branch`
+
+## ...change a Gerrit configuration?
+
+You can't use push/pull the same way as you can with a normal branch. Instead,
+you have to dance around it a bit.
+
+```
+mkdir gtproj
+cd gtproj
+git init
+git remote add origin ssh://<USER>@<GERRITHOST>:29418/<PROJECT>
+git fetch origin refs/meta/config:refs/remotes/origin/meta/config
+git checkout meta/config
+```
+
+Make the changes, then:
+
+```
+git commit -a -m "Added label - Verified"
+git push origin meta/config:meta/config
+```
+
+Finally, get everything up to date again:
+
+```
+git fetch origin refs/meta/config:refs/remotes/origin/meta/config
+```
