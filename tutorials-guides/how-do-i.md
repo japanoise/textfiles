@@ -102,3 +102,19 @@ Finally, get everything up to date again:
 ```
 git fetch origin refs/meta/config:refs/remotes/origin/meta/config
 ```
+
+## ...convert between Intel Hex format and binary?
+
+First install srec/srecord, so you get the srec_cat program.
+
+hex → bin:
+
+```
+srec_cat myfile.hex -Intel -output myfile.bin -binary
+```
+
+bin → hex:
+
+```
+srec_cat myfile.bin -binary -output myfile.hex -Intel
+```
