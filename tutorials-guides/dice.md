@@ -33,6 +33,15 @@ greater than N, subtract N from the result.
 
 For example, to get a d5, roll a d10. If you get 6 or more, subtract 5.
 
+### Double method
+
+For a die dN, if you have a die d(N/2), you can use this trick. Roll the d(N/2)
+and flip a coin; if tails, add N/2 to the result.
+
+For example, you want to roll a d12 but only have a d6 and a coin. Roll the d6
+and flip the coin. You roll a 5, and the coin comes up tails, so add 6 - you roll
+an 11.
+
 ### Pseudo-percentile method
 
 This works for any N divisible by 10, e.g. d20, d30, d40...
@@ -55,8 +64,6 @@ get plus 1 (producing 1-5 with an even distribution).
 
 ## Dice alternative table
 
-(Note: Alternatives in *italics* have a skewed distribution)
-
 Die  | Polydice? | Zocchi? | Alternative
 -----|-----------|---------|------------
 d2   | No        | No      | a) Flip a coin. Heads is 1, tails is 2. b) Roll a d6. Odds is 1, evens is 2.
@@ -69,11 +76,11 @@ d8   | Yes       | No      | Roll a d10. 9 or 10 is reroll, otherwise face value
 d9   | No        | No      | Roll a d10. 10 is reroll, otherwise face value.
 d10  | Yes       | No      | Roll a d20. If >10, subtract 10.
 d11  | No        | No      | Roll a d12. 12 is reroll, otherwise face value.
-d12  | Yes       | No      | *2d6*
+d12  | Yes       | No      | Roll a d6 and flip a coin. If tails, add 6.
 d13  | No        | No      | d14, reroll on 14.
-d14  | No        | Yes     | *2d8-1, reroll on 15*
+d14  | No        | Yes     | Roll a d7 and flip a coin. If tails, add 7.
 d15  | No        | No      | d16, reroll on 16.
-d16  | No        | Yes     | *2d8*
+d16  | No        | Yes     | Roll a d8 and flip a coin. If tails, add 8.
 d20  | Yes       | No      | Roll a d10 and flip a coin. If heads, take the value of the d10. If tails, add ten to it.
-d24  | No        | Yes     | *2d12*
+d24  | No        | Yes     | Roll a d12 and flip a coin. If tails, add 12.
 d50  | No        | No      | Roll 1d5 (tens) and 1d10 (units) in the same way as percentile d10s (taking 5 on the d5 as 0, and a double 0 as 50)
