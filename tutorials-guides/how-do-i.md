@@ -118,3 +118,15 @@ bin → hex:
 ```
 srec_cat myfile.bin -binary -output myfile.hex -Intel
 ```
+
+## ...use an SSH proxy for Firefox?
+
+[Answer from here.](https://calomel.org/firefox_ssh_proxy.html)
+
+1. Go to about:preferences and scroll down to the bottom
+2. Click "Settings" in the Network Settings subheading
+3. Manual proxy configuration
+4. SOCKS Host 127.0.0.1 port 8080 with SOCKSv5 ticked
+5. Go to about:config
+6. Set `network.proxy.socks_remote_dns` to true
+7. Run `ssh -C2qTnN -D 8080 username@remote_machine.com`
