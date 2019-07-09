@@ -130,3 +130,11 @@ srec_cat myfile.bin -binary -output myfile.hex -Intel
 5. Go to about:config
 6. Set `network.proxy.socks_remote_dns` to true
 7. Run `ssh -C2qTnN -D 8080 username@remote_machine.com`
+
+## ...use Perl as a better `sed`?
+
+[Answer from here.](https://stackoverflow.com/a/37686753)
+
+- Pipe replace: `perl -p -e 's/.../.../g' file`
+- Multi-regex: `perl -p -e s/a/b/g;s/d/c/g' file`
+- Inline replace: `perl -pi -e 's/.../.../g' file`
